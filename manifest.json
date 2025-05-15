@@ -1,0 +1,14 @@
+{
+  "name": "Adblocker",
+  "version": "1.0",
+  "description": "An Ad blocking extension that block HTTP requests and hide elements on web pages, preventing ads.",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "16": "icons/logo_16x16.png",
+    "48": "icons/logo_48x48.png"
+  },
+  "manifest_version": 2
+}
